@@ -569,6 +569,52 @@ footer .container .end .ending{
     	height: 500px;
     	width: 100%;
     }
+	.shop{
+		width: 280px;
+		/*height: 160px;*/
+		background: #fff;
+		position: fixed;
+		top:53px;
+		right: 0;
+		z-index: 999;
+		border-radius: 5px;
+		padding:0 30px 10px 30px;
+		border:1px #858585 solid;
+		display: none;
+	}
+	.shop .fir{
+		width: 100%;
+		height: 90px;
+		border-bottom: 1px #d6d6d6 solid;
+		line-height: 90px;
+		text-align: center;
+		font-size: 12px;
+		color: #858585;
+	}
+	.shop .sec{
+		width: 100%;
+		height: 50px;
+		border-bottom: 1px #d6d6d6 solid;
+		line-height: 50px;
+		/*text-align: center;*/
+		font-size: 12px;
+		color: #0A75CB;
+	}
+	.shop .sec:last-child{
+		border-bottom: none;
+	}
+	.fang{
+		width: 30px;
+		height: 30px;
+		position:fixed;
+		top:50px;
+		right: 10px;
+		border:1px #858585 solid;
+		background: white;
+		transform: rotate(45deg);
+		display: none;
+	}
+
 	footer{
 		width: 100%;
 	}
@@ -775,6 +821,17 @@ footer .container .end .ending{
 		border-bottom: 1px solid #d6d6d6;
 		width: 100%;
 		margin-top: 0;
+	}
+	footer .container .coluumn h3 span{
+		width: 12px;
+		height: 12px;
+		line-height: 12px;
+		/*transform: rotate(0deg);*/
+		transition:  .5s;
+	}
+	.spa{
+		transform: rotate(45deg);
+		transition:  .5s;
 	}
 
 

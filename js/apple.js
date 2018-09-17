@@ -33,6 +33,7 @@ $(function () {
         $(".gang11").toggleClass("gang1");
         $(".gang22").toggleClass("gang2");
         $(".gang22").toggleClass("gang222");
+
     })
     $(".icon-gouwudai101").click(function () {
         $(".xiaochu").toggleClass("display2");
@@ -41,5 +42,12 @@ $(function () {
         $(this).next().children().toggleClass("display2");
         $(this).children().toggleClass("icon-cuowu")
         $(this).children().toggleClass("icon-jia")
+        $(this).children().toggleClass("spa");
     })
+    $("header .icon-gouwudai101").click(function () {
+        $(".fang").toggle();
+        $(".shop").toggle();
+    })
+    console.log($("header .icon-gouwudai101"));
+    console.log($(".fang"));
 })
